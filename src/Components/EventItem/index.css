@@ -1,0 +1,32 @@
+/* EventItem/index.css */
+
+.event-item {
+    text-align: center;
+  }
+  
+  .event-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .event-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .event-image.active {
+    transform: scale(1.1);
+  }
+  
+  .name,
+  .location {
+    margin: 5px 0;
+  }
+  
+  /* Add more styles as needed */
+  
